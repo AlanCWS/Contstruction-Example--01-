@@ -7066,13 +7066,14 @@ footer
   }
 
   .designed-by__container {
+    padding: 0.25vh 0 0;
     background-color: var(--base-red);
   }
 
   .designed-by__container p {
     text-align: center;
     color: white;
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
 
   .designed-by__container span {
