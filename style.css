@@ -382,15 +382,1846 @@ index.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .intro-img__container {
+    background-image: url(img/hardhat-near-schemes-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  /* this is shared  */
+  .intro-logo__container {
+    padding: 10% 0 10%;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  /* this is shared */
+  .intro-logo__container img {
+    width: 20vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    border: none;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .company-intro__container {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
 
-@media only screen and (1400px <=width) {}
+  .company-intro-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-intro-header h4 {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .company-intro-header p {
+    font-size: 1.4rem;
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-offers__container {
+    width: 100%;
+  }
+
+  .company-offers-header {
+    width: 70%;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .company-offers-header h4 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .company-offers-grid {
+    display: grid;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-offer-tile-container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+    width: 95%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .company-offer-tile-img img {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 50vh;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text {
+    width: 90%;
+    padding: 0 0 0vh;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text h4 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .company-offer-tile-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .company-tile-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 5vh auto 5vh;
+    margin-right: auto;
+    font-size: 1.1rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 2vh 1vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .company-tile-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-tile-container a {
+    text-decoration: none;
+  }
+
+  .why-choose__container {
+    width: 100%;
+  }
+
+  .why-choose-container-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-choose-container-header h4 {
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 2vh 2vw;
+  }
+
+  .why-choose-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 75%;
+    padding: 2vh 1vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose__tile {
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .why-choose-tile__img img {
+    width: 10vw;
+    display: block;
+    margin: 1vh auto 2vh;
+  }
+
+  .why-choose-header {
+    width: 90%;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .why-choose-header h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .third-party__container {
+    width: 100%;
+  }
+
+  .third-party-header {
+    width: 80%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .third-party-header h4 {
+    font-size: 1.9rem;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+
+  .third-party-grid01 {
+    display: grid;
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .third-party-grid02 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .third-party__tile {
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .third-party-tile__img img {
+    width: 10vw;
+    height: 15vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .third-party-tile-header {
+    width: 100%;
+  }
+
+  .third-party-tile-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .ourlatest__container {
+    width: 100%;
+    margin: 3vh 0 0;
+  }
+
+  .ourlatest-header {
+    border: none;
+    width: 70%;
+    margin: 0 auto 4vh;
+    background-color: white;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .ourlatest-header h4 {
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 400;
+  }
+
+  .ourlatest-grid {
+    display: grid;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourlatest-grid-image__container01 {
+    background-image: url(img/industrial-park-factory-building-warehouse.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container02 {
+    background-image: url(img/concrete-complete.jpeg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container03 {
+    background-image: url(img/tools-image.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container04 {
+    background-image: url(img/front-view-man-working-as-plumber.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container01 a,
+  .ourlatest-grid-image__container02 a,
+  .ourlatest-grid-image__container03 a,
+  .ourlatest-grid-image__container04 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    -webkit-text-stroke: 1.5px black;
+    font-weight: 600;
+    text-align: center;
+    margin: 45% auto 0;
+  }
+
+  .contact__container {
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-tile-button__container {
+    width: 100%;
+    margin: 1vh auto 0;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .contact-tile-button__container a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .contact-tile-button__container p {
+    font-size: 1.2rem;
+  }
+
+
+
+
+  .contact-img img {
+    width: 6vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .intro-img__container {
+    background-image: url(img/hardhat-near-schemes-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  /* this is shared  */
+  .intro-logo__container {
+    padding: 10% 0 10%;
+  }
+
+  /* this is shared */
+  .intro-logo__container img {
+    width: 20vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    border: none;
+  }
+
+  .company-intro__container {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .company-intro-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-intro-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .company-intro-header p {
+    font-size: 1rem;
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-offers__container {
+    width: 100%;
+  }
+
+  .company-offers-header {
+    width: 70%;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .company-offers-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .company-offers-grid {
+    display: grid;
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-offer-tile-container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+    width: 95%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .company-offer-tile-img img {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 50vh;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text {
+    width: 90%;
+    padding: 0 0 0vh;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .company-offer-tile-text p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .company-tile-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 5vh auto 5vh;
+    margin-right: auto;
+    font-size: 0.9rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 2vh 1vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .company-tile-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-tile-container a {
+    text-decoration: none;
+  }
+
+  .why-choose__container {
+    width: 100%;
+  }
+
+  .why-choose-container-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-choose-container-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+  }
+
+  .why-choose-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 75%;
+    padding: 2vh 1vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose__tile {
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .why-choose-tile__img img {
+    width: 9vw;
+    display: block;
+    margin: 1vh auto 2vh;
+  }
+
+  .why-choose-header {
+    width: 90%;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .why-choose-header h4 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .third-party__container {
+    width: 100%;
+  }
+
+  .third-party-header {
+    width: 80%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .third-party-header h4 {
+    font-size: 1.5rem;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+
+  .third-party-grid01 {
+    display: grid;
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .third-party-grid02 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .third-party__tile {
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .third-party-tile__img img {
+    width: 12vw;
+    height: 15vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .third-party-tile-header {
+    width: 100%;
+  }
+
+  .third-party-tile-header h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .ourlatest__container {
+    width: 100%;
+    margin: 3vh 0 0;
+  }
+
+  .ourlatest-header {
+    border: none;
+    width: 70%;
+    margin: 0 auto 4vh;
+    background-color: white;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .ourlatest-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 400;
+  }
+
+  .ourlatest-grid {
+    display: grid;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourlatest-grid-image__container01 {
+    background-image: url(img/industrial-park-factory-building-warehouse.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container02 {
+    background-image: url(img/concrete-complete.jpeg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container03 {
+    background-image: url(img/tools-image.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container04 {
+    background-image: url(img/front-view-man-working-as-plumber.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container01 a,
+  .ourlatest-grid-image__container02 a,
+  .ourlatest-grid-image__container03 a,
+  .ourlatest-grid-image__container04 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: block;
+    -webkit-text-stroke: 1px black;
+    font-weight: 600;
+    text-align: center;
+    margin: 50% auto 0;
+  }
+
+  .contact__container {
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-tile-button__container {
+    width: 100%;
+    margin: 1vh auto 0;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .contact-tile-button__container a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+  }
+
+  .contact-tile-button__container p {
+    font-size: 1rem;
+  }
+
+
+
+
+  .contact-img img {
+    width: 6vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .intro-img__container {
+    background-image: url(img/hardhat-near-schemes-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  /* this is shared  */
+  .intro-logo__container {
+    padding: 10% 0 20%;
+  }
+
+  /* this is shared */
+  .intro-logo__container img {
+    width: 25vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    border: none;
+  }
+
+  .company-intro__container {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 80%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .company-intro-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-intro-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-intro-header p {
+    font-size: 2.1rem;
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-offers__container {
+    width: 100%;
+  }
+
+  .company-offers-header {
+    width: 85%;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .company-offers-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-offers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-offer-tile-container {
+    box-shadow: 1px 1px 2px 1px black;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 90%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .company-offer-tile-img img {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 23vh;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text {
+    width: 90%;
+    padding: 0 0 0vh;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .company-offer-tile-text p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .company-tile-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 2vh auto 3vh;
+    margin-right: auto;
+    font-size: 1.2rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 4vw;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .company-tile-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-tile-container a {
+    text-decoration: none;
+  }
+
+  .why-choose__container {
+    width: 100%;
+  }
+
+  .why-choose-container-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 90%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-choose-container-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+  }
+
+  .why-choose-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 85%;
+    padding: 2vh 1vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose__tile {
+    width: 95%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .why-choose-tile__img img {
+    width: 10vw;
+    display: block;
+    margin: 1vh auto 2vh;
+  }
+
+  .why-choose-header {
+    width: 90%;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .why-choose-header h4 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .third-party__container {
+    width: 100%;
+  }
+
+  .third-party-header {
+    width: 90%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .third-party-header h4 {
+    font-size: 2.5rem;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+
+  .third-party-grid01 {
+    display: grid;
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .third-party-grid02 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .third-party__tile {
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .third-party-tile__img img {
+    width: 13vw;
+    height: 9vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .third-party-tile-header {
+    width: 100%;
+  }
+
+  .third-party-tile-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .ourlatest__container {
+    width: 100%;
+    margin: 3vh 0 0;
+  }
+
+  .ourlatest-header {
+    border: none;
+    width: 80%;
+    margin: 0 auto 4vh;
+    background-color: white;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .ourlatest-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 400;
+  }
+
+  .ourlatest-grid {
+    display: grid;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourlatest-grid-image__container01 {
+    background-image: url(img/industrial-park-factory-building-warehouse.jpg);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container02 {
+    background-image: url(img/concrete-complete.jpeg);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container03 {
+    background-image: url(img/tools-image.jpg);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container04 {
+    background-image: url(img/front-view-man-working-as-plumber.jpg);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container01 a,
+  .ourlatest-grid-image__container02 a,
+  .ourlatest-grid-image__container03 a,
+  .ourlatest-grid-image__container04 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.9rem;
+    display: block;
+    -webkit-text-stroke: 2px black;
+    font-weight: 600;
+    text-align: center;
+    margin: 75% auto 0;
+  }
+
+  .contact__container {
+    margin: 0 0 5vh;
+    width: 100%;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-tile-button__container {
+    width: 100%;
+    margin: 1vh auto 0;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .contact-tile-button__container a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+  }
+
+  .contact-tile-button__container p {
+    font-size: 1.6rem;
+  }
+
+
+
+
+  .contact-img img {
+    width: 10vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .intro-img__container {
+    background-image: url(img/hardhat-near-schemes-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  /* this is shared  */
+  .intro-logo__container {
+    padding: 10% 0 15%;
+  }
+
+  /* this is shared */
+  .intro-logo__container img {
+    width: 20vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    border: none;
+  }
+
+  .company-intro__container {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .company-intro-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-intro-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-intro-header p {
+    font-size: 2.1rem;
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-offers__container {
+    width: 100%;
+  }
+
+  .company-offers-header {
+    width: 70%;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .company-offers-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-offers-grid {
+    display: grid;
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-offer-tile-container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+    width: 80%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .company-offer-tile-img img {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 28vh;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text {
+    width: 90%;
+    padding: 0 0 0vh;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text h4 {
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .company-offer-tile-text p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .company-tile-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 2vh auto 4vh;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .company-tile-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-tile-container a {
+    text-decoration: none;
+  }
+
+  .why-choose__container {
+    width: 100%;
+  }
+
+  .why-choose-container-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-choose-container-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+  }
+
+  .why-choose-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 75%;
+    padding: 2vh 1vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose__tile {
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .why-choose-tile__img img {
+    width: 8vw;
+    display: block;
+    margin: 1vh auto 2vh;
+  }
+
+  .why-choose-header {
+    width: 90%;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .why-choose-header h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .third-party__container {
+    width: 100%;
+  }
+
+  .third-party-header {
+    width: 80%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .third-party-header h4 {
+    font-size: 2.3rem;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+
+  .third-party-grid01 {
+    display: grid;
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .third-party-grid02 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .third-party__tile {
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .third-party-tile__img img {
+    width: 12vw;
+    height: 12vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .third-party-tile-header {
+    width: 100%;
+  }
+
+  .third-party-tile-header h4 {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .ourlatest__container {
+    width: 100%;
+    margin: 3vh 0 0;
+  }
+
+  .ourlatest-header {
+    border: none;
+    width: 70%;
+    margin: 0 auto 4vh;
+    background-color: white;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .ourlatest-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 400;
+  }
+
+  .ourlatest-grid {
+    display: grid;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourlatest-grid-image__container01 {
+    background-image: url(img/industrial-park-factory-building-warehouse.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container02 {
+    background-image: url(img/concrete-complete.jpeg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container03 {
+    background-image: url(img/tools-image.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container04 {
+    background-image: url(img/front-view-man-working-as-plumber.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container01 a,
+  .ourlatest-grid-image__container02 a,
+  .ourlatest-grid-image__container03 a,
+  .ourlatest-grid-image__container04 a {
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    display: block;
+    -webkit-text-stroke: 2px black;
+    font-weight: 600;
+    text-align: center;
+    margin: 50% auto 0;
+  }
+
+  .contact__container {
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-tile-button__container {
+    width: 100%;
+    margin: 1vh auto 0;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .contact-tile-button__container a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+  }
+
+  .contact-tile-button__container p {
+    font-size: 1.4rem;
+  }
+
+
+
+
+  .contact-img img {
+    width: 6vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .intro-img__container {
+    background-image: url(img/hardhat-near-schemes-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  /* this is shared  */
+  .intro-logo__container {
+    padding: 10% 0 10%;
+  }
+
+  /* this is shared */
+  .intro-logo__container img {
+    width: 18vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    border: none;
+  }
+
+  .company-intro__container {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .company-intro-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-intro-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-intro-header p {
+    font-size: 2.1rem;
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-offers__container {
+    width: 100%;
+  }
+
+  .company-offers-header {
+    width: 60%;
+    margin: 3vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .company-offers-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .company-offers-grid {
+    display: grid;
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-offer-tile-container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin: 3vh auto 1vh;
+    margin-right: auto;
+    width: 85%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .company-offer-tile-img img {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 35vh;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text {
+    width: 90%;
+    padding: 0 0 0vh;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .company-offer-tile-text h4 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .company-offer-tile-text p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .company-tile-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 4vh auto 6vh;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .company-tile-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-tile-container a {
+    text-decoration: none;
+  }
+
+  .why-choose__container {
+    width: 100%;
+  }
+
+  .why-choose-container-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-choose-container-header h4 {
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 2vh 2vw;
+  }
+
+  .why-choose-grid {
+    display: grid;
+    margin: 0 auto 0;
+    margin-right: auto;
+    width: 70%;
+    padding: 2vh 1vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose__tile {
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .why-choose-tile__img img {
+    width: 7vw;
+    display: block;
+    margin: 1vh auto 2vh;
+  }
+
+  .why-choose-header {
+    width: 90%;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .why-choose-header h4 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .third-party__container {
+    width: 100%;
+  }
+
+  .third-party-header {
+    width: 70%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .third-party-header h4 {
+    font-size: 2.3rem;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+
+  .third-party-grid01 {
+    display: grid;
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .third-party-grid02 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .third-party__tile {
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .third-party-tile__img img {
+    width: 11vw;
+    height: 13vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .third-party-tile-header {
+    width: 100%;
+  }
+
+  .third-party-tile-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .ourlatest__container {
+    width: 100%;
+    margin: 5vh 0 0;
+  }
+
+  .ourlatest-header {
+    border: none;
+    width: 60%;
+    margin: 0 auto 4vh;
+    background-color: white;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .ourlatest-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 400;
+  }
+
+  .ourlatest-grid {
+    display: grid;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourlatest-grid-image__container01 {
+    background-image: url(img/industrial-park-factory-building-warehouse.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container02 {
+    background-image: url(img/concrete-complete.jpeg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container03 {
+    background-image: url(img/tools-image.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container04 {
+    background-image: url(img/front-view-man-working-as-plumber.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+  }
+
+  .ourlatest-grid-image__container01 a,
+  .ourlatest-grid-image__container02 a,
+  .ourlatest-grid-image__container03 a,
+  .ourlatest-grid-image__container04 a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.3rem;
+    display: block;
+    -webkit-text-stroke: 2.5px black;
+    font-weight: 600;
+    text-align: center;
+    margin: 53% auto 0;
+  }
+
+  .contact__container {
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contact-tile {
+    width: 95%;
+  }
+
+  .contact-tile-button__container {
+    width: 100%;
+    margin: 1vh auto 0;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .contact-tile-button__container a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+  }
+
+  .contact-tile-button__container p {
+    font-size: 1.4rem;
+  }
+
+
+
+
+  .contact-img img {
+    width: 6vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+}
 
 
 /* ==============
@@ -511,15 +2342,604 @@ reviews.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .intro-reviews-img__container {
+    background-image: url(img/review-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .top-reviews__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 65%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .top-reviews__container h4 {
+    padding: 1vh 2vw;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .reviews-tile__container {
+    width: 100%;
+  }
 
-@media only screen and (1400px <=width) {}
+  .reviews-grid {
+    display: grid;
+    width: 85%;
+    margin: 4vh auto 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .reviews-tile {
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .reviews-img img {
+    width: 9vw;
+    height: 13vh;
+    display: block;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .reviews-text {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .reviews-text h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* New Section */
+  .reviews__container {
+    width: 100%;
+  }
+
+  .reviews-grid__container {
+    display: grid;
+    width: 90%;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-tile__container {
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 85%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .profile-pic img {
+    width: 7vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .profile-stars {
+    color: gold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5vh 0 0;
+  }
+
+  .profile-text {
+    width: 95%;
+    margin: 1vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .profile-text p {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .intro-reviews-img__container {
+    background-image: url(img/review-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .top-reviews__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 65%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .top-reviews__container h4 {
+    padding: 1vh 2vw;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .reviews-tile__container {
+    width: 100%;
+  }
+
+  .reviews-grid {
+    display: grid;
+    width: 85%;
+    margin: 4vh auto 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .reviews-tile {
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .reviews-img img {
+    width: 9vw;
+    height: 11vh;
+    display: block;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+  }
+
+  .reviews-text {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .reviews-text h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* New Section */
+  .reviews__container {
+    width: 100%;
+  }
+
+  .reviews-grid__container {
+    display: grid;
+    width: 85%;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-tile__container {
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .profile-pic img {
+    width: 6vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .profile-stars {
+    color: gold;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0.5vh 0 0;
+  }
+
+  .profile-text {
+    width: 95%;
+    margin: 1vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .profile-text p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .intro-reviews-img__container {
+    background-image: url(img/review-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .top-reviews__container {
+    box-shadow: 1px 1px 2px 1px black;
+    width: 75%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .top-reviews__container h4 {
+    padding: 1vh 2vw;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .reviews-tile__container {
+    width: 100%;
+  }
+
+  .reviews-grid {
+    display: grid;
+    margin: 4vh 0 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .reviews-tile {
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .reviews-img img {
+    width: 9vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .reviews-text {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .reviews-text h4 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  /* New Section */
+  .reviews__container {
+    width: 100%;
+  }
+
+  .reviews-grid__container {
+    display: grid;
+    width: 85%;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-tile__container {
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px black;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .profile-pic img {
+    width: 9vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name p {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  .profile-stars {
+    color: gold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.5vh 0 0;
+  }
+
+  .profile-text {
+    width: 95%;
+    margin: 1vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .profile-text p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .intro-reviews-img__container {
+    background-image: url(img/review-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .top-reviews__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 65%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .top-reviews__container h4 {
+    padding: 1vh 2vw;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .reviews-tile__container {
+    width: 100%;
+  }
+
+  .reviews-grid {
+    display: grid;
+    width: 85%;
+    margin: 4vh auto 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .reviews-tile {
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .reviews-img img {
+    width: 8vw;
+    height: 10vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .reviews-text {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .reviews-text h4 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  /* New Section */
+  .reviews__container {
+    width: 100%;
+  }
+
+  .reviews-grid__container {
+    display: grid;
+    width: 70%;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-tile__container {
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .profile-pic img {
+    width: 9vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name p {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  .profile-stars {
+    color: gold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.5vh 0 0;
+  }
+
+  .profile-text {
+    width: 95%;
+    margin: 1vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .profile-text p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .intro-reviews-img__container {
+    background-image: url(img/review-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .top-reviews__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  .top-reviews__container h4 {
+    padding: 1vh 2vw;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .reviews-tile__container {
+    width: 100%;
+  }
+
+  .reviews-grid {
+    display: grid;
+    width: 70%;
+    margin: 4vh auto 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .reviews-tile {
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .reviews-img img {
+    width: 8vw;
+    height: 10vh;
+    display: block;
+    margin: 0 auto 1vh;
+    margin-right: auto;
+  }
+
+  .reviews-text {
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .reviews-text h4 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  /* New Section */
+  .reviews__container {
+    width: 100%;
+  }
+
+  .reviews-grid__container {
+    display: grid;
+    width: 65%;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-tile__container {
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto 2vh;
+    margin-right: auto;
+  }
+
+  .profile-pic img {
+    width: 5vw;
+    display: block;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .profile-name p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .profile-stars {
+    color: gold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0.5vh 0 0;
+  }
+
+  .profile-text {
+    width: 85%;
+    margin: 1vh auto 3vh;
+    margin-right: auto;
+  }
+
+  .profile-text p {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
 
 /* =============
 commercial.html
@@ -642,15 +3062,628 @@ commercial.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .commercial-img__container {
+    background-image: url(img/apx-commercial-construction.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .commercial-intro__container {
+    width: 100%;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .commercial-intro-header {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 50%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .commercial-intro-header h4 {
+    font-size: 1.9rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
 
-@media only screen and (1400px <=width) {}
+  .commercial-text-body {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-text-body p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 75%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .type-of-grid {
+    margin: 0 0 3vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr ;
+  }
+
+  .type-of-tile {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .type-of-tile,
+  .type-of-img__container img {
+    width: 45vw;
+    background-color: white;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-img__container img {
+    height: 50vh;
+  }
+
+  .type-of-title {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-title h4 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .type-of-text-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-text-body h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+
+  .type-of-btn__container {
+    width: 100%;
+  }
+
+  .type-of-btn__container a {
+    text-decoration: none;
+  }
+
+  .type-of-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 4vh auto 5vh;
+    margin-right: auto;
+    font-size: 1.1rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .type-of-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .commercial-img__container {
+    background-image: url(img/apx-commercial-construction.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .commercial-intro__container {
+    width: 100%;
+  }
+
+  .commercial-intro-header {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 50%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-intro-header h4 {
+    font-size: 1.8rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .commercial-text-body {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-text-body p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 70%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .type-of-grid {
+    margin: 0 0 3vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr ;
+  }
+
+  .type-of-tile {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .type-of-tile,
+  .type-of-img__container img {
+    width: 45vw;
+    background-color: white;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-img__container img {
+    height: 50vh;
+  }
+
+  .type-of-title {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-title h4 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .type-of-text-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-text-body h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+
+  .type-of-btn__container {
+    width: 100%;
+  }
+
+  .type-of-btn__container a {
+    text-decoration: none;
+  }
+
+  .type-of-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 5vh auto 6vh;
+    margin-right: auto;
+    font-size: 1rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .type-of-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .commercial-img__container {
+    background-image: url(img/apx-commercial-construction.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .commercial-intro__container {
+    width: 100%;
+  }
+
+  .commercial-intro-header {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-intro-header h4 {
+    font-size: 2.5rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .commercial-text-body {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-text-body p {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 0 0 3vh;
+    text-align: center;
+  }
+
+  .type-of-grid {
+    margin: 0 0 3vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr ;
+  }
+
+  .type-of-tile {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .type-of-tile,
+  .type-of-img__container img {
+    width: 55vw;
+    background-color: white;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-img__container img {
+    height: 25vh;
+  }
+
+  .type-of-title {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-title h4 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .type-of-text-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-text-body h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .type-of-btn__container {
+    width: 100%;
+  }
+
+  .type-of-btn__container a {
+    text-decoration: none;
+  }
+
+  .type-of-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 4vh auto 3vh;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .type-of-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .commercial-img__container {
+    background-image: url(img/apx-commercial-construction.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .commercial-intro__container {
+    width: 100%;
+  }
+
+  .commercial-intro-header {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 50%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-intro-header h4 {
+    font-size: 2.5rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .commercial-text-body {
+    width: 90%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-text-body p {
+    font-size: 1.9rem;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .type-of-grid {
+    margin: 0 0 3vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr ;
+  }
+
+  .type-of-tile {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .type-of-tile,
+  .type-of-img__container img {
+    width: 40vw;
+    background-color: white;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-img__container img {
+    height: 40vh;
+  }
+
+  .type-of-title {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-title h4 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .type-of-text-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-text-body h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .type-of-btn__container {
+    width: 100%;
+  }
+
+  .type-of-btn__container a {
+    text-decoration: none;
+  }
+
+  .type-of-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 4vh auto 3vh;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .type-of-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .commercial-img__container {
+    background-image: url(img/apx-commercial-construction.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .commercial-intro__container {
+    width: 100%;
+  }
+
+  .commercial-intro-header {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 50%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-intro-header h4 {
+    font-size: 2.7rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .commercial-text-body {
+    width: 75%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .commercial-text-body p {
+    font-size: 1.9rem;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto 3vh;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .type-of-grid {
+    margin: 0 0 3vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 95%;
+    margin: 0 auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr ;
+  }
+
+  .type-of-tile {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .type-of-tile,
+  .type-of-img__container img {
+    width: 40vw;
+    background-color: white;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-img__container img {
+    height: 45vh;
+  }
+
+  .type-of-title {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-title h4 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .type-of-text-body {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .type-of-text-body h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.9rem;
+  }
+
+  .type-of-btn__container {
+    width: 100%;
+  }
+
+  .type-of-btn__container a {
+    text-decoration: none;
+  }
+
+  .type-of-btn {
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 4vh auto 5vh;
+    margin-right: auto;
+    font-size: 1.5rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 1vh 2vw;
+    font-weight: 600;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .type-of-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
 
 /*================
 contact-us.html
@@ -720,15 +3753,330 @@ contact-us.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .contact-us-img__container {
+    background-image: url(img/concrete-canam.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .company-hours__container {
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .company-hours-header {
+    padding: 1vh 2vw;
+  }
 
-@media only screen and (1400px <=width) {}
+  .company-hours-header h4 {
+    font-size: 1.6rem;
+    text-align: center;
+
+  }
+
+  .hours-contact-list__conatiner {
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul li {
+    padding: 0.5vh 0 0.5vh;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.1rem;
+    list-style-type: none;
+  }
+
+  .hours-contact-list__conatiner ul li span {
+    font-weight: 600;
+  }
+
+  .email-phone__container {
+    text-align: center;
+    padding: 0 0 2vh;
+  }
+
+  .email-phone__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .contact-us-img__container {
+    background-image: url(img/concrete-canam.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .company-hours__container {
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+
+  }
+
+  .company-hours-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-hours-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+
+  }
+
+  .hours-contact-list__conatiner {
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul {
+    width: 60%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul li {
+    padding: 0.5vh 0 0.5vh;
+    font-weight: 400;
+    text-align: left;
+    font-size: 0.9rem;
+    list-style-type: none;
+  }
+
+  .hours-contact-list__conatiner ul li span {
+    font-weight: 600;
+  }
+
+  .email-phone__container {
+    text-align: center;
+    padding: 0 0 2vh;
+  }
+
+  .email-phone__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .contact-us-img__container {
+    background-image: url(img/concrete-canam.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .company-hours__container {
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+
+  }
+
+  .company-hours-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-hours-header h4 {
+    font-size: 2.5rem;
+    text-align: center;
+
+  }
+
+  .hours-contact-list__conatiner {
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul {
+    width: 90%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul li {
+    padding: 0.5vh 0 0.5vh;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.9rem;
+    list-style-type: none;
+  }
+
+  .hours-contact-list__conatiner ul li span {
+    font-weight: 600;
+  }
+
+  .email-phone__container {
+    text-align: center;
+    padding: 0 0 2vh;
+  }
+
+  .email-phone__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .contact-us-img__container {
+    background-image: url(img/concrete-canam.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .company-hours__container {
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+
+  }
+
+  .company-hours-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-hours-header h4 {
+    font-size: 2.3rem;
+    text-align: center;
+
+  }
+
+  .hours-contact-list__conatiner {
+    width: 80%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul li {
+    padding: 0.5vh 0 0.5vh;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.6rem;
+    list-style-type: none;
+  }
+
+  .hours-contact-list__conatiner ul li span {
+    font-weight: 600;
+  }
+
+  .email-phone__container {
+    text-align: center;
+    padding: 0 0 2vh;
+  }
+
+  .email-phone__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .contact-us-img__container {
+    background-image: url(img/concrete-canam.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .company-hours__container {
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+
+  }
+
+  .company-hours-header {
+    padding: 1vh 2vw;
+  }
+
+  .company-hours-header h4 {
+    font-size: 2.4rem;
+    text-align: center;
+
+  }
+
+  .hours-contact-list__conatiner {
+    width: 70%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul {
+    width: 65%;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .hours-contact-list__conatiner ul li {
+    padding: 0.5vh 0 0.5vh;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.8rem;
+    list-style-type: none;
+  }
+
+  .hours-contact-list__conatiner ul li span {
+    font-weight: 600;
+  }
+
+  .email-phone__container {
+    text-align: center;
+    padding: 0 0 2vh;
+  }
+
+  .email-phone__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.9rem;
+  }
+}
 
 
 /* ==============
@@ -851,15 +4199,590 @@ about-us.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .about-us-img__container {
+    background-image: url(img/empty-town-square_1359-156.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .about-company__container-grid {
+    width: 100%;
+    margin: 5vh 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .about-company-tile,
+  .about-company-img__container img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .about-company-text {
+    margin: 0 auto 1vh;
+    padding: 1vh 2vw;
+  }
 
-@media only screen and (1400px <=width) {}
+  .about-company-text h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-company-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-leader-tile,
+  .portrait-img img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .about-leader-tile {
+    margin: 3vh auto 3vh;
+  }
+
+  .about-leader-text {
+    width: 90%;
+    margin: 1vh auto 0;
+  }
+
+  .about-leader-text h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-leader-text p {
+    font-size: 1.2rem;
+    padding: 0 1vw 1vh;
+    text-align: center;
+  }
+
+  .about-us-contact-btn__tile {
+    width: 55%;
+    border: none;
+    background-color: white;
+    margin: 5vh auto 5vh;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .about-us-contact-header {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1vh 2vw;
+  }
+
+  .about-us-contact-btn__container {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-us-contact__btn {
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-weight: 600;
+    outline: 1px solid black;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    padding: 1vh 2vw;
+    margin: 6vh 7vw 6vh;
+    margin-right: auto;
+    transition: all 0.4s ease;
+  }
+
+  .about-us-contact__btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .about-us-img__container {
+    background-image: url(img/empty-town-square_1359-156.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .about-company__container-grid {
+    width: 100%;
+    margin: 5vh 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-company-tile,
+  .about-company-img__container img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .about-company-text {
+    margin: 0 auto 1vh;
+    padding: 1vh 2vw;
+  }
+
+  .about-company-text h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-company-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-leader-tile,
+  .portrait-img img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .about-leader-tile {
+    margin: 3vh auto 3vh;
+  }
+
+  .about-leader-text {
+    width: 90%;
+    margin: 1vh auto 0;
+  }
+
+  .about-leader-text h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-leader-text p {
+    font-size: 1.2rem;
+    padding: 0 1vw 1vh;
+    text-align: center;
+  }
+
+  .about-us-contact-btn__tile {
+    width: 55%;
+    border: none;
+    background-color: white;
+    margin: 5vh auto 5vh;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .about-us-contact-header {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1vh 2vw;
+  }
+
+  .about-us-contact-btn__container {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-us-contact__btn {
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-weight: 600;
+    outline: 1px solid black;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    padding: 1vh 2vw;
+    margin: 6vh 6vw 6vh;
+    margin-right: auto;
+    transition: all 0.4s ease;
+  }
+
+  .about-us-contact__btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .about-us-img__container {
+    background-image: url(img/empty-town-square_1359-156.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .about-company__container-grid {
+    width: 100%;
+    margin: 5vh 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-company-tile,
+  .about-company-img__container img {
+    box-shadow: 1px 1px 2px 1px black;
+    width: 70vw;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .about-company-text {
+    margin: 0 auto 1vh;
+    padding: 1vh 2vw;
+  }
+
+  .about-company-text h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .about-company-text p {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .about-leader-tile,
+  .portrait-img img {
+    box-shadow: 1px 1px 2px 1px black;
+    width: 70vw;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .about-leader-tile {
+    margin: 3vh auto 3vh;
+  }
+
+  .about-leader-text {
+    width: 90%;
+    margin: 1vh auto 0;
+  }
+
+  .about-leader-text h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .about-leader-text p {
+    font-size: 1.9rem;
+    padding: 0 1vw 1vh;
+    text-align: center;
+  }
+
+  .about-us-contact-btn__tile {
+    width: 75%;
+    border: none;
+    background-color: white;
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px black;
+  }
+
+  .about-us-contact-header {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1vh 2vw;
+  }
+
+  .about-us-contact-btn__container {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-us-contact__btn {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-weight: 600;
+    outline: 1px solid black;
+    box-shadow: 1px 1px 2px 1px black;
+    padding: 1vh 2vw;
+    margin: 3vh 13vw 3vh;
+    margin-right: auto;
+    transition: all 0.4s ease;
+  }
+
+  .about-us-contact__btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .about-us-img__container {
+    background-image: url(img/empty-town-square_1359-156.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .about-company__container-grid {
+    width: 100%;
+    margin: 5vh 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-company-tile,
+  .about-company-img__container img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .about-company-text {
+    margin: 0 auto 1vh;
+    padding: 1vh 2vw;
+  }
+
+  .about-company-text h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .about-company-text p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .about-leader-tile,
+  .portrait-img img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60vw;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .about-leader-tile {
+    margin: 3vh auto 3vh;
+  }
+
+  .about-leader-text {
+    width: 90%;
+    margin: 1vh auto 0;
+  }
+
+  .about-leader-text h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .about-leader-text p {
+    font-size: 1.6rem;
+    padding: 0 1vw 1vh;
+    text-align: center;
+  }
+
+  .about-us-contact-btn__tile {
+    width: 55%;
+    border: none;
+    background-color: white;
+    margin: 0 auto 5vh;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .about-us-contact-header {
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 1vh 2vw;
+  }
+
+  .about-us-contact-btn__container {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-us-contact__btn {
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-weight: 600;
+    outline: 1px solid black;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    padding: 1vh 2vw;
+    margin: 3vh 10vw 3vh;
+    margin-right: auto;
+    transition: all 0.4s ease;
+  }
+
+  .about-us-contact__btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .about-us-img__container {
+    background-image: url(img/empty-town-square_1359-156.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .about-company__container-grid {
+    width: 100%;
+    margin: 7vh 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-company-tile,
+  .about-company-img__container img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 55vw;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .about-company-text {
+    margin: 0 auto 1vh;
+    padding: 1vh 2vw;
+  }
+
+  .about-company-text h4 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .about-company-text p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-leader-tile,
+  .portrait-img img {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 55vw;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto 0;
+    margin-right: auto;
+  }
+
+  .about-leader-tile {
+    margin: 3vh auto 3vh;
+  }
+
+  .about-leader-text {
+    width: 90%;
+    margin: 1vh auto 0;
+  }
+
+  .about-leader-text h4 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .about-leader-text p {
+    font-size: 1.5rem;
+    padding: 0 1vw 1vh;
+    text-align: center;
+  }
+
+  .about-us-contact-btn__tile {
+    width: 50%;
+    border: none;
+    background-color: white;
+    margin: 4vh auto 5vh;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+  }
+
+  .about-us-contact-header {
+    text-align: center;
+    font-size: 2.1rem;
+    padding: 1vh 2vw;
+  }
+
+  .about-us-contact-btn__container {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-us-contact__btn {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-weight: 600;
+    outline: 1px solid black;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    padding: 1vh 2vw;
+    margin: 3vh 8vw 3vh;
+    margin-right: auto;
+    transition: all 0.4s ease;
+  }
+
+  .about-us-contact__btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
 
 
 
@@ -1026,15 +4949,745 @@ plumbing-services.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .concrete-img__container {
+    background-image: url(img/handyman-prepare-cement-use-construction.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .shared-what-service-header__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .shared-what-service-header__container h4 {
+    font-size: 1.8rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .shared-what-service__container {
+    width: 70%;
+    margin: 2vh auto 1vh;
+    margin-right: auto;
+  }
 
-@media only screen and (1400px <=width) {}
+  .shared-what-service__container h4 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .shared-services-list__container {
+    width: 100%;
+  }
+
+  .shared-service-list-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-service-list-header h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .shared-service-list-grid {
+    background-color: white;
+    width: 75%;
+    display: grid;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-service-list-grid ul {
+    width: 85%;
+    margin: 2vh 5vw 2vh;
+    margin-right: auto;
+  }
+
+  .shared-service-list-grid ul li {
+    font-size: 1.3rem;
+    padding: 0.5vh 0 0.5vh;
+  }
+
+  .shared-contact-us-btn__container {
+    width: 75%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-contact-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 10vw 0;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: 2px solid black;
+    padding: 1vw 2vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .shared-contact-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .shared-area-map__container {
+    width: 100%;
+  }
+
+  .shared-area-map-header {
+    width: 80%;
+    margin: 7vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-area-map-header h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .shared-ifram__container {
+    width: 100%;
+  }
+
+  .shared-ifram__container iframe {
+    display: block;
+    width: 55%;
+    height: 55vh;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin-right: auto;
+  }
+
+  .shared-area-map-list {
+    display: grid;
+    width: 75%;
+    margin: 1vh auto 10vh;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-area-map-list ul {
+    width: 100%;
+  }
+
+  .shared-area-map-list ul li {
+    margin: 0 14vw 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .concrete-img__container {
+    background-image: url(img/handyman-prepare-cement-use-construction.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .shared-what-service-header__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-what-service-header__container h4 {
+    font-size: 1.5rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .shared-what-service__container {
+    width: 70%;
+    margin: 2vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .shared-what-service__container h4 {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .shared-services-list__container {
+    width: 100%;
+  }
+
+  .shared-service-list-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-service-list-header h4 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .shared-service-list-grid {
+    background-color: white;
+    width: 75%;
+    display: grid;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-service-list-grid ul {
+    width: 85%;
+    margin: 2vh 5vw 2vh;
+    margin-right: auto;
+  }
+
+  .shared-service-list-grid ul li {
+    font-size: 1.1rem;
+    padding: 0.5vh 0 0.5vh;
+  }
+
+  .shared-contact-us-btn__container {
+    width: 75%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-contact-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 10vw 0;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    outline: 2px solid black;
+    padding: 1vw 2vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .shared-contact-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .shared-area-map__container {
+    width: 100%;
+  }
+
+  .shared-area-map-header {
+    width: 80%;
+    margin: 7vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-area-map-header h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .shared-ifram__container {
+    width: 100%;
+  }
+
+  .shared-ifram__container iframe {
+    display: block;
+    width: 55%;
+    height: 55vh;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin-right: auto;
+  }
+
+  .shared-area-map-list {
+    display: grid;
+    width: 75%;
+    margin: 1vh auto 10vh;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-area-map-list ul {
+    width: 100%;
+  }
+
+  .shared-area-map-list ul li {
+    margin: 0 14vw 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .concrete-img__container {
+    background-image: url(img/handyman-prepare-cement-use-construction.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .shared-what-service-header__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-what-service-header__container h4 {
+    font-size: 3rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .shared-what-service__container {
+    width: 85%;
+    margin: 2vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .shared-what-service__container h4 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .shared-services-list__container {
+    width: 100%;
+  }
+
+  .shared-service-list-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-service-list-header h4 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .shared-service-list-grid {
+    background-color: white;
+    width: 90%;
+    display: grid;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-service-list-grid ul {
+    width: 85%;
+    margin: 0 8vw 2vh;
+    margin-right: auto;
+  }
+
+  .shared-service-list-grid ul li {
+    font-size: 1.6rem;
+    padding: 0.5vh 0 0.5vh;
+  }
+
+  .shared-contact-us-btn__container {
+    width: 90%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-contact-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 11vw 0;
+    border-radius: 3px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    outline: 2px solid black;
+    padding: 1vw 2vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .shared-contact-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .shared-area-map__container {
+    width: 100%;
+  }
+
+  .shared-area-map-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-area-map-header h4 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .shared-ifram__container {
+    width: 100%;
+  }
+
+  .shared-ifram__container iframe {
+    display: block;
+    width: 70%;
+    height: 30vh;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin-right: auto;
+  }
+
+  .shared-area-map-list {
+    display: grid;
+    width: 70%;
+    margin: 1vh auto 5vh;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-area-map-list ul {
+    width: 100%;
+  }
+
+  .shared-area-map-list ul li {
+    margin: 0 9vw 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .concrete-img__container {
+    background-image: url(img/handyman-prepare-cement-use-construction.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .shared-what-service-header__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-what-service-header__container h4 {
+    font-size: 2.5rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .shared-what-service__container {
+    width: 80%;
+    margin: 2vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .shared-what-service__container h4 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .shared-services-list__container {
+    width: 100%;
+  }
+
+  .shared-service-list-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-service-list-header h4 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .shared-service-list-grid {
+    background-color: white;
+    width: 65%;
+    display: grid;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-service-list-grid ul {
+    width: 85%;
+    margin: 0 5vw 2vh;
+    margin-right: auto;
+  }
+
+  .shared-service-list-grid ul li {
+    font-size: 1.6rem;
+    padding: 0.5vh 0 0.5vh;
+  }
+
+  .shared-contact-us-btn__container {
+    width: 75%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-contact-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 12vw 0;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: 2px solid black;
+    padding: 1vw 2vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .shared-contact-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .shared-area-map__container {
+    width: 100%;
+  }
+
+  .shared-area-map-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-area-map-header h4 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .shared-ifram__container {
+    width: 100%;
+  }
+
+  .shared-ifram__container iframe {
+    display: block;
+    width: 60%;
+    height: 45vh;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin-right: auto;
+  }
+
+  .shared-area-map-list {
+    display: grid;
+    width: 75%;
+    margin: 1vh auto 5vh;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-area-map-list ul {
+    width: 100%;
+  }
+
+  .shared-area-map-list ul li {
+    margin: 0 14vw 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .concrete-img__container {
+    background-image: url(img/handyman-prepare-cement-use-construction.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .shared-what-service-header__container {
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 55%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-what-service-header__container h4 {
+    font-size: 2.8rem;
+    padding: 1vh 2vw;
+    text-align: center;
+  }
+
+  .shared-what-service__container {
+    width: 70%;
+    margin: 4vh auto 1vh;
+    margin-right: auto;
+  }
+
+  .shared-what-service__container h4 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .shared-services-list__container {
+    width: 100%;
+  }
+
+  .shared-service-list-header {
+    width: 75%;
+    margin: 7vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-service-list-header h4 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .shared-service-list-grid {
+    background-color: white;
+    width: 60%;
+    display: grid;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border: none;
+    border-radius: 3px;
+    margin: 2vh auto 0;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-service-list-grid ul {
+    width: 85%;
+    margin: 0 5vw 2vh;
+    margin-right: auto;
+  }
+
+  .shared-service-list-grid ul li {
+    font-size: 1.9rem;
+    padding: 0.5vh 0 0.5vh;
+  }
+
+  .shared-contact-us-btn__container {
+    width: 70%;
+    margin: 3vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-contact-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 10vw 0;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: 2px solid black;
+    padding: 1vw 2vw;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    transition: all 0.4s ease;
+  }
+
+  .shared-contact-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .shared-area-map__container {
+    width: 100%;
+  }
+
+  .shared-area-map-header {
+    width: 80%;
+    margin: 5vh auto 0;
+    margin-right: auto;
+  }
+
+  .shared-area-map-header h4 {
+    font-size: 2.9rem;
+    text-align: center;
+  }
+
+  .shared-ifram__container {
+    width: 100%;
+  }
+
+  .shared-ifram__container iframe {
+    display: block;
+    width: 55%;
+    height: 60vh;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    margin-right: auto;
+  }
+
+  .shared-area-map-list {
+    display: grid;
+    width: 65%;
+    margin: 1vh auto 7vh;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shared-area-map-list ul {
+    width: 100%;
+  }
+
+  .shared-area-map-list ul li {
+    margin: 0 12vw 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+}
 
 
 /* ================
@@ -1065,7 +5718,7 @@ plumbing-services.html
   }
 
   .painter-img__container {
-    background-image: url(img/painter-image.jpg);
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -1079,15 +5732,155 @@ plumbing-services.html
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .plumbing-img__container {
+    background-image: url(img/plumbing-professional-doing-his-job.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .electrical-img__container {
+    background-image: url(img/male-electrician-working-switchboard-with-fuses.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .painter-img__container {
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .handyman-img__container {
+    background-image: url(img/diy-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
 
-@media only screen and (1400px <=width) {}
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .plumbing-img__container {
+    background-image: url(img/plumbing-professional-doing-his-job.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .electrical-img__container {
+    background-image: url(img/male-electrician-working-switchboard-with-fuses.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .painter-img__container {
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .handyman-img__container {
+    background-image: url(img/diy-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .plumbing-img__container {
+    background-image: url(img/plumbing-professional-doing-his-job.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .electrical-img__container {
+    background-image: url(img/male-electrician-working-switchboard-with-fuses.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .painter-img__container {
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .handyman-img__container {
+    background-image: url(img/diy-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .plumbing-img__container {
+    background-image: url(img/plumbing-professional-doing-his-job.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .electrical-img__container {
+    background-image: url(img/male-electrician-working-switchboard-with-fuses.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .painter-img__container {
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .handyman-img__container {
+    background-image: url(img/diy-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .plumbing-img__container {
+    background-image: url(img/plumbing-professional-doing-his-job.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .electrical-img__container {
+    background-image: url(img/male-electrician-working-switchboard-with-fuses.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .painter-img__container {
+    background-image: url(img/Exterior-Painting-Contractor-scaled.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .handyman-img__container {
+    background-image: url(img/diy-tools.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
 
 
 /* =================
@@ -1208,40 +6001,577 @@ services.html
 
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .services-img__container {
+    background-image: url(img/side-view-men-with-safety-vests-shaking-hands.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .services-offered__container {
+    width: 100%;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  .services-offered-header {
+    width: 80%;
+    margin: 3vh auto 0;
+  }
 
-@media only screen and (1025px <=width <=1399px) {}
+  .services-offered-header h4 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
 
-@media only screen and (1400px <=width) {}
+  .services-offered-header p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .service-photo-text-grid {
+    display: grid;
+    width: 95%;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh auto 0;
+    margin-right: auto;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-img-tile,
+  .service-img-tile img {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- h4 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .service-text-tile- p {
+    text-align: left;
+    margin: 1vh auto 2vh;
+    margin-right: auto;
+    width: 95%;
+    font-size: 1.4rem;
+  }
+
+  .why-not-choose-us__container {
+    width: 100%;
+  }
+
+  .why-not-choose-us-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 75%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-header h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1vh 2vw;
+  }
+
+  .why-not-choose-us-header p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0 0 2vh;
+  }
+
+  .why-not-choose-us-btn__container {
+    width: 75%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border: none;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin: 5vh 9vw 3vh;
+    transition: all 0.4s ease;
+  }
+
+  .why-not-choose-us-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .services-img__container {
+    background-image: url(img/side-view-men-with-safety-vests-shaking-hands.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .services-offered__container {
+    width: 100%;
+  }
+
+  .services-offered-header {
+    width: 80%;
+    margin: 3vh auto 0;
+  }
+
+  .services-offered-header h4 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .services-offered-header p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .service-photo-text-grid {
+    display: grid;
+    width: 95%;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh auto 0;
+    margin-right: auto;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-img-tile,
+  .service-img-tile img {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- h4 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .service-text-tile- p {
+    text-align: left;
+    margin: 1vh auto 2vh;
+    margin-right: auto;
+    width: 95%;
+    font-size: 1.3rem;
+  }
+
+  .why-not-choose-us__container {
+    width: 100%;
+  }
+
+  .why-not-choose-us-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 75%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-header h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1vh 2vw;
+  }
+
+  .why-not-choose-us-header p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 0 2vh;
+  }
+
+  .why-not-choose-us-btn__container {
+    width: 75%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border: none;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin: 5vh 9vw 3vh;
+    transition: all 0.4s ease;
+  }
+
+  .why-not-choose-us-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (768px <=width <=1024px) and (orientation:portrait) {
+  .services-img__container {
+    background-image: url(img/side-view-men-with-safety-vests-shaking-hands.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .services-offered__container {
+    width: 100%;
+  }
+
+  .services-offered-header {
+    width: 80%;
+    margin: 3vh auto 0;
+  }
+
+  .services-offered-header h4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .services-offered-header p {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .service-photo-text-grid {
+    display: grid;
+    width: 95%;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh auto 0;
+    margin-right: auto;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-img-tile,
+  .service-img-tile img {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- h4 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .service-text-tile- p {
+    text-align: left;
+    margin: 1vh auto 2vh;
+    margin-right: auto;
+    width: 95%;
+    font-size: 1.7rem;
+  }
+
+  .why-not-choose-us__container {
+    width: 100%;
+  }
+
+  .why-not-choose-us-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 75%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-header h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1vh 2vw;
+  }
+
+  .why-not-choose-us-header p {
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 0 0 2vh;
+  }
+
+  .why-not-choose-us-btn__container {
+    width: 70%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border: none;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    margin: 1vh 8vw 0;
+    transition: all 0.4s ease;
+  }
+
+  .why-not-choose-us-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1025px <=width <=1399px) {
+  .services-img__container {
+    background-image: url(img/side-view-men-with-safety-vests-shaking-hands.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .services-offered__container {
+    width: 100%;
+  }
+
+  .services-offered-header {
+    width: 80%;
+    margin: 3vh auto 0;
+  }
+
+  .services-offered-header h4 {
+    text-align: center;
+    font-size: 2.9rem;
+  }
+
+  .services-offered-header p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .service-photo-text-grid {
+    display: grid;
+    width: 95%;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh auto 0;
+    margin-right: auto;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-img-tile,
+  .service-img-tile img {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- h4 {
+    text-align: center;
+    font-size: 2.7rem;
+  }
+
+  .service-text-tile- p {
+    text-align: left;
+    margin: 1vh auto 2vh;
+    margin-right: auto;
+    width: 95%;
+    font-size: 2rem;
+  }
+
+  .why-not-choose-us__container {
+    width: 100%;
+  }
+
+  .why-not-choose-us-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 75%;
+    margin: 3vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-header h4 {
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 1vh 2vw;
+  }
+
+  .why-not-choose-us-header p {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 0 0 2vh;
+  }
+
+  .why-not-choose-us-btn__container {
+    width: 75%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border: none;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    margin: 1vh 11vw 0;
+    transition: all 0.4s ease;
+  }
+
+  .why-not-choose-us-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .services-img__container {
+    background-image: url(img/side-view-men-with-safety-vests-shaking-hands.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .services-offered__container {
+    width: 100%;
+  }
+
+  .services-offered-header {
+    width: 80%;
+    margin: 3vh auto 0;
+  }
+
+  .services-offered-header h4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .services-offered-header p {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .service-photo-text-grid {
+    display: grid;
+    width: 95%;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh auto 0;
+    margin-right: auto;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-img-tile,
+  .service-img-tile img {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- {
+    width: 100%;
+    background-color: white;
+  }
+
+  .service-text-tile- h4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .service-text-tile- p {
+    text-align: left;
+    margin: 1vh auto 2vh;
+    margin-right: auto;
+    width: 95%;
+    font-size: 2.5rem;
+  }
+
+  .why-not-choose-us__container {
+    width: 100%;
+  }
+
+  .why-not-choose-us-header {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    width: 65%;
+    margin: 5vh auto 0;
+    background-color: white;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-header h4 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 1vh 2vw;
+  }
+
+  .why-not-choose-us-header p {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 0 0 2vh;
+  }
+
+  .why-not-choose-us-btn__container {
+    width: 65%;
+    margin: 1vh auto 0;
+    margin-right: auto;
+  }
+
+  .why-not-choose-us-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border: none;
+    box-shadow: 1.5px 1.5px 2px 1px black;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    margin: 3vh 9vw 0;
+    transition: all 0.4s ease;
+  }
+
+  .why-not-choose-us-btn:hover {
+    background-color: white;
+    color: black;
+  }
+}
 
 
-@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
-
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
-
-@media only screen and (1025px <=width <=1399px) {}
-
-@media only screen and (1400px <=width) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
-
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
-
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
-
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
-
-@media only screen and (1025px <=width <=1399px) {}
-
-@media only screen and (1400px <=width) {}
 
 
 /*=============== 
@@ -1337,10 +6667,90 @@ Navigation
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .nav {
+    width: 100%;
+    background-color: var(--base-red);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 15vh;
+    padding: 2vh 2vw;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 3vh 0 0;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 2vw;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+  .nav>#nav-check {
+    display: none;
+  }
+}
 
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .nav {
+    width: 100%;
+    background-color: var(--base-red);
+    display: flex;
+    align-items: center;
+  }
+
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 15vh;
+    padding: 2vh 2vw;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 3vh 0 0;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 1.5vw;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+  .nav>#nav-check {
+    display: none;
+  }
+}
 
 @media only screen and (768px <=width <=1024px) and (orientation:portrait) {
   .nav {
@@ -1400,7 +6810,7 @@ Navigation
     display: block;
     width: 5vw;
     padding: 0.5vh 0 0.5vh;
-    border-top: 3.5px solid white;
+    border-top: 5px solid white;
   }
 
   .nav>.nav-list {
@@ -1412,7 +6822,7 @@ Navigation
     background-color: var(--base-red);
     height: 0;
     transition: all 0.3s ease-in;
-    top: 8vh;
+    top: 6.5vh;
     left: 0;
     z-index: 1;
     opacity: 0.9;
@@ -1422,7 +6832,7 @@ Navigation
   .nav>.nav-list>li {
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding: 1vh 0 0;
     margin: 1vh 0 1vh;
   }
@@ -1432,22 +6842,88 @@ Navigation
   }
 }
 
-@media only screen and (1025px <=width <=1399px) {}
+@media only screen and (1025px <=width <=1399px) {
+  .nav {
+    width: 100%;
+    background-color: var(--base-red);
+    display: flex;
+    align-items: center;
+  }
 
-@media only screen and (1400px <=width) {}
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 9vh;
+    padding: 2vh 2vw;
+  }
 
+  .nav>.nav-header>.nav-title {
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 0.5vh 0 0;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:portrait) {}
+  .nav>.nav-list {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.4rem;
+  }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+  .nav>#nav-check {
+    display: none;
+  }
 
-@media only screen and (768px <=width <=1024px) and (orientation:portrait) {}
+  
+}
 
-@media only screen and (1025px <=width <=1399px) {}
+@media only screen and (1400px <=width) {
+  .nav {
+    width: 100%;
+    background-color: var(--base-red);
+    display: flex;
+    align-items: center;
+  }
 
-@media only screen and (1400px <=width) {}
+  .nav>.nav-header {
+    flex: 0.95;
+    height: 11vh;
+    padding: 2vh 2vw;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 1vh 0 0;
+  }
+
+  .nav>.nav-list {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .nav>.nav-list>li {
+    list-style-type: none;
+  }
+
+  .nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+  .nav>#nav-check {
+    display: none;
+  }
+}
+
 
 /* ==================
 footer
@@ -1514,6 +6990,7 @@ footer
 
   .designed-by__container p {
     text-align: center;
+    color: white;
     font-size: 0.7rem;
   }
 
@@ -1522,9 +6999,161 @@ footer
   }
 }
 
-@media only screen and (769px <=width <=1024px) and (orientation:landscape) {}
+@media only screen and (769px <=width <=1024px) and (orientation:landscape) {
+  .footer__container {
+    width: 100%;
+    display: flex;
+    background-color: var(--base-red);
+  }
 
-@media only screen and (320px <=width <=768px) and (orientation:landscape) {}
+  .footer-img__container img {
+    width: 11vw;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh 1vw;
+    box-shadow: 0.5px 0.5px 1px 0.5px black;
+  }
+
+  .footer-about-us__container {
+    display: contents;
+  }
+  .footer-about-us__container h4 {
+    width: 45%;
+    height: fit-content;
+    color: white;
+    margin: 1vh 0 0;
+    font-size: 0.9rem;
+  }
+
+  .footer-links__container {
+    display: flex;
+    margin: 0 0vw 0;
+  }
+
+  .footer-page-links {
+
+    margin: 1vh 3vw 0;
+  }
+
+  .footer-page-links ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-page-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-social-links {
+
+    margin: 1vh 3vw 0;
+  }
+
+  .footer-social-links ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-social-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .designed-by__container {
+    background-color: var(--base-red);
+  }
+
+  .designed-by__container p {
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+  }
+
+  .designed-by__container span {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (320px <=width <=768px) and (orientation:landscape) {
+  .footer__container {
+    width: 100%;
+    display: flex;
+    background-color: var(--base-red);
+  }
+
+  .footer-img__container img {
+    width: 11vw;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh 1vw;
+    box-shadow: 0.5px 0.5px 1px 0.5px black;
+  }
+
+  .footer-about-us__container {
+    display: contents;
+  }
+  .footer-about-us__container h4 {
+    width: 45%;
+    height: fit-content;
+    color: white;
+    margin: 1vh 0 0;
+    font-size: 0.75rem;
+  }
+
+  .footer-links__container {
+    display: flex;
+    margin: 0 0vw 0;
+  }
+
+  .footer-page-links {
+
+    margin: 1vh 1vw 0;
+  }
+
+  .footer-page-links ul li {
+    list-style-type: none;
+    font-size: 0.75rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-page-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-social-links {
+
+    margin: 1vh 3vw 0;
+  }
+
+  .footer-social-links ul li {
+    list-style-type: none;
+    font-size: 0.75rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-social-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .designed-by__container {
+    background-color: var(--base-red);
+  }
+
+  .designed-by__container p {
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+
+  .designed-by__container span {
+    font-weight: 600;
+  }
+}
 
 @media only screen and (768px <=width <=1024px) and (orientation:portrait) {
   .footer__container {
@@ -1549,7 +7178,7 @@ footer
     height: fit-content;
     color: white;
     margin: 1vh 0 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 
   .footer-links__container {
@@ -1564,7 +7193,7 @@ footer
 
   .footer-page-links ul li {
     list-style-type: none;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0 0 0.25vh;
   }
 
@@ -1580,7 +7209,7 @@ footer
 
   .footer-social-links ul li {
     list-style-type: none;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0 0 0.25vh;
   }
 
@@ -1595,6 +7224,7 @@ footer
 
   .designed-by__container p {
     text-align: center;
+    color: white;
     font-size: 1rem;
   }
 
@@ -1603,6 +7233,158 @@ footer
   }
 }
 
-@media only screen and (1025px <=width <=1399px) {}
+@media only screen and (1025px <=width <=1399px) {
+  .footer__container {
+    width: 100%;
+    display: flex;
+    background-color: var(--base-red);
+  }
 
-@media only screen and (1400px <=width) {}
+  .footer-img__container img {
+    width: 8vw;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh 1vw;
+    box-shadow: 0.5px 0.5px 1px 0.5px black;
+  }
+
+  .footer-about-us__container {
+    display: contents;
+  }
+  .footer-about-us__container h4 {
+    width: 45%;
+    height: fit-content;
+    color: white;
+    margin: 1vh 0 0;
+    font-size: 1.25rem;
+  }
+
+  .footer-links__container {
+    display: flex;
+    margin: 0 0vw 0;
+  }
+
+  .footer-page-links {
+
+    margin: 1vh 3vw 0;
+  }
+
+  .footer-page-links ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-page-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-social-links {
+
+    margin: 1vh 5vw 0;
+  }
+
+  .footer-social-links ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-social-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .designed-by__container {
+    background-color: var(--base-red);
+  }
+
+  .designed-by__container p {
+    text-align: center;
+    color: white;
+    font-size: 0.95rem;
+  }
+
+  .designed-by__container span {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (1400px <=width) {
+  .footer__container {
+    width: 100%;
+    display: flex;
+    background-color: var(--base-red);
+  }
+
+  .footer-img__container img {
+    width: 8vw;
+    border-radius: 3px;
+    border: none;
+    margin: 1vh 1vw;
+    box-shadow: 0.5px 0.5px 1px 0.5px black;
+  }
+
+  .footer-about-us__container {
+    display: contents;
+  }
+  .footer-about-us__container h4 {
+    width: 40%;
+    height: fit-content;
+    color: white;
+    margin: 1vh 0 0;
+    font-size: 1.35rem;
+  }
+
+  .footer-links__container {
+    display: flex;
+    margin: 0 0vw 0;
+  }
+
+  .footer-page-links {
+
+    margin: 1vh 4vw 0;
+  }
+
+  .footer-page-links ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-page-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-social-links {
+
+    margin: 1vh 6vw 0;
+  }
+
+  .footer-social-links ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0 0 0.25vh;
+  }
+
+  .footer-social-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .designed-by__container {
+    background-color: var(--base-red);
+  }
+
+  .designed-by__container p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .designed-by__container span {
+    font-weight: 600;
+  }
+}
